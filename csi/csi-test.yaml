@@ -6,5 +6,5 @@ metadata:
 spec:
   repo: https://github.com/abhideodhar-coder/fleet-examples
   paths:
-  - simple
+  - csi
 
