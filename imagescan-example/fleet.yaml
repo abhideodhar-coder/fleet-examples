@@ -16,8 +16,8 @@ imageScans:
   tagName: test-scan
 
   # specify secret to pull image if in private registry
-  secretRef:
-    name: dockerhub-secret 
+  #secretRef:
+  #  name: dockerhub-secret 
 
   # Specify the scan interval
   interval: 5m 
