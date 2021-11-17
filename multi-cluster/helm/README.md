@@ -15,7 +15,7 @@ kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
   name: helm
-  namespace: fleet-default
+  namespace: allclusters
 spec:
   repo: https://github.com/rancher/fleet-examples
   paths:
@@ -24,15 +24,5 @@ spec:
   - name: dev
     clusterSelector:
       matchLabels:
-        env: dev
-
-  - name: test
-    clusterSelector:
-      matchLabels:
-        env: test
-
-  - name: prod
-    clusterSelector:
-      matchLabels:
-        env: prod
+        env: equinix
 ```

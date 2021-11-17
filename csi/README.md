@@ -8,9 +8,9 @@ kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
   name: simple
-  namespace: fleet-local
+  namespace: allclusters
 spec:
-  repo: https://github.com/rancher/fleet-examples
+  repo: https://github.com/abhideodhar-coder/fleet-examples
   paths:
   - simple
 ```
