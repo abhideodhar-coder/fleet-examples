@@ -1,11 +1,11 @@
 namespace: fleet-mc-helm-external-example-nvidia
 helm:
-  chart: https://github.com/NVIDIA/gpu-operator
+  chart: https://github.com/NVIDIA/gpu-operator/archive/refs/tags/v1.7.1.tar.gz
 targetCustomizations:
 - name: dev
   helm:
     values:
-      version: 1.7.1-centos            
+      toolkit.version: 1.7.1-centos8
   clusterSelector:
     matchLabels:
       env: gpu
