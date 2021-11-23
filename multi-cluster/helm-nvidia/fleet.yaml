@@ -1,4 +1,4 @@
-namespace: default
+defaultNamespace: default
 helm:
   chart: https://helm.ngc.nvidia.com/nvidia/charts/gpu-operator-v1.9.0-beta.tgz
 targetCustomizations:
