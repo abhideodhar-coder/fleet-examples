@@ -5,7 +5,7 @@ targetCustomizations:
 - name: dev
   helm:
     values:
-      version: 1.7.1-centos8
+      toolkit.version: 1.7.1-centos8
   clusterSelector:
     matchLabels:
       cap: gpu
