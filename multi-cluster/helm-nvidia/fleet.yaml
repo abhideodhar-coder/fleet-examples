@@ -1,6 +1,6 @@
 defaultNamespace: default
 helm:
-  chart: https://helm.ngc.nvidia.com/nvidia/charts/gpu-operator-v1.8.2.tgz
+  chart: https://helm.ngc.nvidia.com/nvidia/charts/gpu-operator-v1.7.1.tgz
 targetCustomizations:
 - name: dev
   helm:
