@@ -8,4 +8,4 @@ targetCustomizations:
       version: 1.7.1-centos8
   clusterSelector:
     matchLabels:
-      env: gpu
+      cap: gpu
