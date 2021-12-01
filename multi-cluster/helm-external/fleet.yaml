@@ -16,7 +16,7 @@ targetCustomizations:
       replicas: 3
   clusterSelector:
     matchLabels:
-      env: test
+      env: equinix
 
 - name: prod
   helm:
