@@ -1,0 +1,10 @@
+defaultNamespace: default
+helm:
+  chart: https://helm.ngc.nvidia.com/nvidia/charts/video-analytics-demo-0.1.6.tgz
+targetCustomizations:
+- name: dev
+  helm:
+    values:
+  clusterSelector:
+    matchLabels:
+      cap: gpu
