@@ -1,11 +1,11 @@
 defaultNamespace: default
 helm:
-  chart: https://helm.ngc.nvidia.com/nvidia/charts/gpu-operator-v1.7.1.tgz
+  chart: https://helm.ngc.nvidia.com/nvidia/charts/gpu-operator-v1.9.0.tgz
 targetCustomizations:
 - name: dev
   helm:
     values:
-            #toolkit.version: 1.7.1-centos8
+      toolkit.version: 1.7.1-centos8
   clusterSelector:
     matchLabels:
       cap: gpu
