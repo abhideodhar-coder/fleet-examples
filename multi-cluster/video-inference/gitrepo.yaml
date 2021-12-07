@@ -1,7 +1,7 @@
 kind: GitRepo
 apiVersion: fleet.cattle.io/v1alpha1
 metadata:
-  name: video-inference
+  name: video
   namespace: allclusters
 spec:
   repo: https://github.com/abhideodhar-coder/fleet-examples
