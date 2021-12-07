@@ -1,0 +1,15 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: nvidia
+  namespace: allclusters
+spec:
+  repo: https://github.com/abhideodhar-coder/fleet-examples
+  paths:
+  - multi-cluster/helm-nvidia
+  targets:
+  - name: dev
+    clusterSelector:
+      matchLabels:
+        cap: gpu
+
